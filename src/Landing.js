@@ -15,7 +15,7 @@ import img13 from './Media/13pc.jpg'
 import img14 from './Media/14pc.jpg'
 import img15 from './Media/15pc.jpg'
 import img16 from './Media/16pc.jpg'
-import img17 from './Media/17pc.jpg'
+// import img17 from './Media/17pc.jpg'
 import './Landing.css'
 import { db } from "./firebase";
 
@@ -74,66 +74,67 @@ function Landing() {
                 <a href="https://amzn.to/3lC2Fy5" target="_blank">
                     <img className="landing__set1__img" src={img3} alt="Landing page images" />
                 </a>
-                <a href="https://amzn.to/3lC2Fy5" target="_blank">
+                <a href="https://amzn.to/3lC2Fy5"  target="_blank">
                     <img className="landing__set1__img" src={img4} alt="Landing page images" />
                 </a>
-                <a href="https://amzn.to/2SIE2U7" target="_blank">
+                <a href="https://amzn.to/2SIE2U7" className="chotiPhoto" target="_blank">
                     <img className="landing__set1__img" src={img5} alt="Landing page images" />
                 </a>
 
             </div>
 
 
-            {/* <div className="landing__set3"> */}
+            <div className="landing__set3">
             <div className="landing__set__img">
-                <a href="https://amzn.to/2SMg0ri" target="_blank">
+                <a href="https://amzn.to/2SMg0ri" className="link1" target="_blank">
                     <img className="landing__set3" src={img6} alt="Landing page images" />
                 </a>
-                <a href="https://amzn.to/2GNbrKT" target="_blank">
+                <a href="https://amzn.to/2GNbrKT" className="link2" target="_blank">
                     <img className="landing__set3" src={img7} alt="Landing page images" />
                 </a>
 
             </div>
             <div className="landing__set__img">
-                <a href="https://amzn.to/2GYReBn" target="_blank">
+                
+                <a href="https://amzn.to/2GYReBn" className="link1" target="_blank">
                     <img className="landing__set3" src={img8} alt="Landing page images" />
                 </a>
-                <a href="https://amzn.to/2GQuPGK" target="_blank">
+                <a href="https://amzn.to/2GQuPGK" className="link2" target="_blank">
                     <img className="landing__set3" src={img9} alt="Landing page images" />
                 </a>
 
             </div>
             <div className="landing__set__img">
-                <a href="https://amzn.to/3jPVuBZ" target="_blank">
+                <a href="https://amzn.to/3jPVuBZ" className="link1" target="_blank">
                     <img className="landing__set3" src={img10} alt="Landing page images" />
                 </a>
-                <a href="https://amzn.to/30Y1nFT" target="_blank">
+                <a href="https://amzn.to/30Y1nFT" className="link2"target="_blank">
                     <img className="landing__set3" src={img11} alt="Landing page images" />
                 </a>
 
             </div>
             <div className="landing__set__img">
-                <a href="https://amzn.to/2GYREaV" target="_blank">
+                <a href="https://amzn.to/2GYREaV" className="link1" target="_blank">
                     <img className="landing__set3" src={img12} alt="Landing page images" />
                 </a>
-                <a href="https://amzn.to/33N7XRe" target="_blank">
+                <a href="https://amzn.to/33N7XRe" className="link2" target="_blank">
                     <img className="landing__set3" src={img13} alt="Landing page images" />
                 </a>
 
             </div>
 
-            {/* </div> */}
+            </div>
             <div className="landing__set1" >
-                <a href="https://amzn.to/3jWhYkY" target="_blank">
+                <a href="https://amzn.to/3jWhYkY" className="link1" target="_blank">
                     <img src={img14} className="landing__set1__img" alt="Landing page images" />
                 </a>
             </div>
 
             <div className="landing__set__img">
-                <a href="https://amzn.to/3iNGwew" target="_blank">
+                <a href="https://amzn.to/3iNGwew" className="link1" target="_blank">
                     <img className="landing__set3" src={img15} alt="Landing page images" />
                 </a>
-                <a href="https://amzn.to/3k7qjlX" target="_blank">
+                <a href="https://amzn.to/3k7qjlX" className="link2" target="_blank">
                     <img className="landing__set3" src={img16} alt="Landing page images" />
                 </a>
             </div>
