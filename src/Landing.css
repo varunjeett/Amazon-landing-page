@@ -94,6 +94,7 @@
     
     }
     .landing__form__outer{
+        padding-bottom: 7px;
         height: 10vh;
         align-items: center;
     }

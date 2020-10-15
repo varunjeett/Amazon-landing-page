@@ -1,15 +1,15 @@
 import firebase from 'firebase'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyANlJh5hof6z1JlH7QmSr5qzxtEsfxwHNc",
-    authDomain: "landing-817eb.firebaseapp.com",
-    databaseURL: "https://landing-817eb.firebaseio.com",
-    projectId: "landing-817eb",
-    storageBucket: "landing-817eb.appspot.com",
-    messagingSenderId: "65064581239",
-    appId: "1:65064581239:web:7226cc2142d58566d26e72",
-    measurementId: "G-JBJ2W5L6N7"
-};
+    apiKey: "AIzaSyAlabDIM96y6xi24BGi0Kt6jCcm-hFBj9Y",
+    authDomain: "bestofferspage.firebaseapp.com",
+    databaseURL: "https://bestofferspage.firebaseio.com",
+    projectId: "bestofferspage",
+    storageBucket: "bestofferspage.appspot.com",
+    messagingSenderId: "766765301586",
+    appId: "1:766765301586:web:daca173abf1d5a690bc48b",
+    measurementId: "G-12Z8LJ192S"
+  };
 
 
 // eslint-disable-next-line
